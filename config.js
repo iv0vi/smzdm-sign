@@ -5,34 +5,26 @@
  * 2018-04-17
  */
 
-// email 登陆账号 如：xxxx@qq.com
-const emailName = 'xxxx@qq.com';
-// email 登陆密码
-const emailPassword = 'aaaaabbbb';
-// 接收者 邮箱
-const toEmail = 'xxx@qq.com';
-
 //用于签到的 账号信息 列表
 const cookieListValKey = [
 	{
-		'username': '非必填，用户发送邮件展示',
-		'phone': '非必填，用户发送邮件展示',
-		'cookies': '必填，取自用户登录后的cookie，获取方法见说明文档'
+		'cookies': ''
 	},
 ];
 
-
 //回复列表 用于发表评论的内容
 let commitList = [
+	'路过大神, 怎么样这个？',
+	'真的该努力赚钱了！',
+	'按耐不住手了, 求解毒.....',
+	'有解毒的吗？刚需',
 	'这个价可以入手吗 字数',
+	'这个价有毒吧...',
 	'感谢爆料，很不错',
 	'这可以入手吗，有解毒吗？',
 ];
 
 module.exports = {
-	emailName,
-	emailPassword,
-	toEmail,
 	cookieListValKey,
 	commitList
 };
